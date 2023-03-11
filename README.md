@@ -50,15 +50,25 @@ The radius was defined proportionally to the image size considered with the cent
 
 The minimum number of 1 representing the parasite must be at least 25% of the canvas as it is required.
 
+![image](https://user-images.githubusercontent.com/36670138/224478511-7b458432-d3fa-4cd3-8fe0-1bdff9b41bff.png)
+
+
 _Dye Image:_
 
 Now we select the parasite image that we want to induce with a dye and create a separate dye image.
 
 The Dye image is represented using a 2 along with some leaks so that we can cover that scenario.
 
+![image](https://user-images.githubusercontent.com/36670138/224478548-ea639345-c5f5-4fd9-809d-4e1dbbac719c.png)
+
+
 _Overlapping:_
+
 The area of dye in the insect is calculated after running an overlapping code.
 Now the dye inside the parasite is represented using 3 and the dye outside the parasite, which is a leak is represented by 2.
+
+![image](https://user-images.githubusercontent.com/36670138/224478561-82927331-c5e4-47fe-932a-a5b9efab97e0.png)
+
 
 **Question 3**
 
