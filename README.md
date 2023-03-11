@@ -19,6 +19,7 @@ Before I answer the questions I want to be clear about my interpretations and as
 The first numpy array represents the microscope image that has 0 for outside of a micro-organisms body and 1 where it is present. In the future, we can use image processing techniques to achieve this, for now, I'm just assuming a BitSet called "organism" which is a 25% zoomed body of a micro-organism.
 
 **Question 1:**
+
 **An efficient way to store dye and organism image.**
 _Microscope image:_
 The image is created in the shape of a polygon blob where I define the number of vertices at random and then defined a radius for it. The worst-case scenario might lead to alternating pixels leading to a 20GB+ storage space. But my image is a binary image with only values as mentioned above, which efficiently reduces the size of the storage required as we need to focus only on the part of the blog (around 2 GB).
@@ -38,6 +39,7 @@ Note:
 I chose python to show the image visually though I prefer java for more practical and faster implementation.
 
 **Question 2:**
+
 **Fake Simulation of Parasite and Dye image**
 
 _Parasite Image:_
@@ -65,7 +67,7 @@ Now we get the ratio of Dye inside the parasite and the space covered by the par
 This is handled by the function that is used to detect cancer in the parasite and recreates the image as shown. 
 The function "cancer" and "cancer_optimized" can be referred.
 
-**Question 4 **
+**Question 4**
 
 _Optimization_
 There are various ways to optimize this function further.
